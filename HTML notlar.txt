@@ -1,0 +1,158 @@
+****************************************************************
+<html>
+    <head>
+
+        <title> Hello World </title> -->Bu kisim baslik kismi
+
+    </head>
+
+    <body>
+    
+        Hello world. -->Kod'larin yazildidi alan boyd icidir.
+
+    </body>
+
+</html>
+****************************************************************
+! yapip enter yaptigimizda gelen sayfa uzeridne kodlarimizi yazariz
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    		-->kodlarn yazdildig yer.
+</body>
+</html>
+****************************************************************
+p yapip icine lorem yazip enter yaptigimz da otomtik yazi gelir
+
+    lorem*5 ile de birden fazla yazi gelir
+
+    <br> -- > bu sekilde satir basi yapariz.
+
+    <h1></h1> = bir sayada sadece bir tane olur
+	<h1></h1> -->h2 h3 seklinde birden fazla boyutu vardir title'larda kullanilir.
+
+****************************************************************
+ <strong> ve <b>
+    Metinleri kalınlaştırmak için kullanılırlar. Strong tagının b ye göre semantic değeri daha fazladır.
+    <strong> kalinlastirilmak istenen yazi yazilir </strong> = koyu olarak yazar
+
+    <i></i> = yaziyi egik yazdirmak icin yapilir
+
+    <i>   <strong></strong>     </i> = bu sekilde ic icede kullanilabilir.
+
+    <u> </u> = altini cizer
+
+    <br>
+    <br> = bu sekilde arlarini acabiliriz
+
+    <div></div> = blok elemandir. kapladigi alan ne olursao.sun tum satiri isgal eder.
+
+    <span></span>= inline elamandir .sadece kapladigi alan kadar yer kaplar
+
+ <div  style="background-color: blueviolet;">I love HTML</div>  
+    <br>
+
+   <span style="background-color: chartreuse;">My love HTML</span>
+
+bu sekilde renklendrime ile kapladigi alani gorebiliriz.
+
+****************************************************************
+<a href=""></a> -->bu kalip sizi farkli bir web'e gitmenizi saglar.
+<a href="" target="blank"></a> -->yan sekmede acmanizi saglar.
+
+	<a href="04-block-inline-taglar.html">4.sayfaya git </a>
+    	<br>
+        <a href="01-hello-word.html" target="blank">birinci sayfaya git</a>
+
+****************************************************************
+#-->bu isaret ile sayfa icinde sayfa sonuna git sayfa basina git islemleri yapilir.
+
+     <a href="#sayfaSonu">Sayfanin sonuna git.</a>
+
+     <span id="sayfaSonu"></span> = bu sekilde sayfa sonuna gitme islemi yapilir
+     bir tanesi ust tarafa bir tanesi alt tarafa eklenir.
+	alt tarafa eklenen kisim # bu olmadan direk ismi ile yazilir.
+
+     <div id="sayfaninAltiniBirUstu" style="background-color: brown;" >sayfaninAltiniBirUstu</div> =
+     su sekilde ise gittigi yeri renkli olarak yapip gorebiliriz.
+
+<a href="#sayfaOrtasi">Sayfanin ortasina git.</a>
+<div id="sayfaOrtasi" style="background-color: blueviolet;"> sayfaOrtasi</div>
+bu sekilde yazilarak ta sayfa ortasina gidilip renklendirme yapilabilir.
+
+****************************************************************
+yeni bir dosya isleminde img yaparak icerisine resimler yukleyip onlari cagirabiliriz
+ayni sekilde video olusturarak ta yapabiliriz.
+
+img yapip enter yaptigimizda syntex  <img src="" alt=""> bu sekilde gelir.
+    <img src="../img/zelda_image.jpg" alt="img-png" width="200" height="200"> boyutunuda bu sekilde ayalariz.
+
+  alt yazmamizin sebebi browserde resim acilmazsa img png diye yazdir dedik
+     her hangi bir espirisi yok.
+
+<video src=""></video> syntex'i
+ <video src="../video/Full-Stack QA Engineer - TechPro Education.mp4" width="400" height="400" autoplay muted> video </video>
+autoplay ile video baslatirli.
+****************************************************************
+    form =kullanicidan bilgi alma, tum form elemanlarini icinde barindiran tasiyici
+    input= form elemanlarinin genel ismi
+    label=kullaniciya bilgi vermek icin
+
+<label for="name"> Adinizi Giriniz:</label>
+    <input type="text" id="name">
+kalip bu sekilde. email olan yerde type email
+sifre yapmak istedigimizde type password ve telefon yada sayi islemlerinde type number olarak duzeltilir.
+<label for="name"> Adinizi Giriniz:</label>
+    <input type="text" id="name">
+    <br>
+    <label for="surName"> Soyadinizi Giriniz:</label>
+    <input type="text" id="surName">
+    <br>
+    <label for="email">Epostanizi Giriniz:</label>
+    <input type="email" name="" id="email">
+    <br>
+    <label for="sifre">sifrenizi giriniz:</label>
+    <input type="password" name="sifre" id="">
+    <br>
+    <label for="phoneNumber">telefon numaranizi giriniz:</label>
+    <input type="number" name="phoneNumber" id="">
+    <br>
+****************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
