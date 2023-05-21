@@ -8,28 +8,106 @@
 </head>
 <body>
     
-    <h1>FORM YAPISI</h1>
+    <h1>Ogrenci Kayit Formu</h1>
+    <h2>Lutfen Asagidaki Kodu Eksiksiz Doldurunuz!</h2>
 
     <form method="post" action="users/update">
 
     <label for="name"> Adinizi Giriniz:</label>
     <input type="text" id="name">
     <br>
-    <label for="surName"> Soyadinizi Giriniz:</label>
+    <br>
+    <label for="surName"> Soyadinizi Giriniz: </label>
     <input type="text" id="surName">
+    <br>
     <br>
     <label for="email">Epostanizi Giriniz:</label>
     <input type="email" name="" id="email">
     <br>
+    <br>
     <label for="sifre">sifrenizi giriniz:</label>
     <input type="password" name="sifre" id="">
+    <br>
     <br>
     <label for="phoneNumber">telefon numaranizi giriniz:</label>
     <input type="number" name="phoneNumber" id="">
     <br>
+    <br>
+    <label for="cinsiyet">cinsiyetinizi seciniz:</label>
+    <input type="radio" name="cinsiyet" id="Erkek">
+    <label for="Erkek">Erkek</label>
+    <input type="radio" name="cinsiyet" id="Kadin">
+    <label for="Kadin">Kadin</label>
+    <input type="radio" name="cinsiyet" id="diger">
+    <label for="diger">Belirtmek istemiyorum</label>
+    <br>
+    <br>
+    <label for="birthday">Dogum Tarihini Giriniz:</label>
+    <input type="date" id="birthday">
+    <br>
+    <br>
+    <label for="giristarih">Ise Giris Tarihi:</label>
+    <input type="datetime-local" id="giristarih">
+    <br>
+    <br>
+    <label for="hobby">Hobilerinizi Seciniz : </label>
+    <br>
+    <label for="hobby">spor yapmak</label>
+    <input type="checkbox" name="hobby" id="hobby">
+    <br>
+    <label for="hobby">kitap okumak</label>
+    <input type="checkbox" name="hobby" id="hobby">
+    <br>
+    <label for="hobby">muzik dinlemek</label>
+    <input type="checkbox" name="hobby" id="hobby">
+    <br>
+    <br><label for="renk">Sevdiginiz rengi giriniz:</label>
+    <input type="color" id="renk">
+    <br>
+    <br>
+    <label for="renk">Sevdiginiz rengi giriniz:</label>
+    <select name="color" >
+        <option value="color"> </option>
+        <option value="color">Beyaz</option>
+        <option value="color">Siyah</option>
+    </select>
+    <br>
+    <br>
+    <label for="aralik">Bir aralik seciniz: </label>
+    <input type="range" step="10" id="aralik">
+    <br>
+    <br>
+    <label for="saat">Giris saatinizi seciniz: </label>
+    <input type="time" id="saat">
+    <br>
+    <br>
+    <label for="dosya">Resumeni'zi yukleyiniz:"</label>
+    <input type="file" id="dosya">
+    <br><br>
+    <select name="sehir" id="">
+
+        <option value="">Dogum Yeriniz</option>
+        <option value="01">Ankara</option>
+        <option value="02">Mersin</option>
+        <option value="03">Ankara</option>
+        <option value="04">Istanbul</option>
+        <option value="05">Bolu</option>
+
+    </select>
+    <br>
+    <br>
+    <label for="Talep">Gorus ve Onerileriniz : </label>
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <input type="button" value="Buton">
+    <input type="submit" value="Gonder">
+    <input type="reset" value="Sil">
+   
     </form>
 
-
+    
 
 
 </body>
@@ -46,5 +124,20 @@
     <input type="password" name="sifre" id="">
     not sifer kismi password olarak yazilir
 
+    <input type="radio" > = kutucuk islemi yapar
+    inpout'ta name de ayni isim vererek ayni isim uzerinden check islemi yapilir
+
+    input date ile tarih eklemesi yapabiliriz.
+
+    checkbox ta birden fazla isaretleme islemi yapabiliyoruz
+    fakat radio olan da sadece bir tane secme islemi yapabiliyoruz.
+
+
+    &nbsb ile bosluk islemi yapabiliriz
+
+      <label for="aralik">Bir aralik seciniz: </label>
+    <input type="range" name="" id="aralik">
+    aralik secme islemi yapar.
+    <input type="range" step="10" id="aralik"> step ile de artis azalis miktari 
 
 -->

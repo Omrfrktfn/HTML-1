@@ -1,3 +1,5 @@
+HTML = Hyper Text Markup Language...Bİr işaretleme dilidir
+HTML: Bir programlama dili degil isaretleme dilidir.
 ****************************************************************
 <html>
     <head>
@@ -139,6 +141,8 @@ placeholder
   <select name="cinsiyet" >
         <option value="K">KADIN</option>
         <option value="E">ERKEK</option>
+<option disabled selected> Selec A role </option> bu sekilde bunu secili
+yapamayiz. yani bos olarak gecemez
     </select>
 ****************************************************************
 <textarea name="mesaj" placeholder="Mesajinizi yazin"></textarea>
