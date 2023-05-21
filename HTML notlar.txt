@@ -104,6 +104,8 @@ autoplay ile video baslatirli.
     input= form elemanlarinin genel ismi
     label=kullaniciya bilgi vermek icin
 
+form body'si icinde yazilir.
+
 <label for="name"> Adinizi Giriniz:</label>
     <input type="text" id="name">
 kalip bu sekilde. email olan yerde type email
@@ -122,8 +124,30 @@ sifre yapmak istedigimizde type password ve telefon yada sayi islemlerinde type 
     <br>
     <label for="phoneNumber">telefon numaranizi giriniz:</label>
     <input type="number" name="phoneNumber" id="">
+
+<input type="button" value="kaydet" id="">
+bu sekilde ise buton kismini ekliyebiliriz.
     <br>
 ****************************************************************
+not:kullanici adi girislerde name yada surname olan yeri kutucuk icinde ne yazmamizi soyleyen kod
+placeholder
+<input type="text"placeholder="name">
+<label for="name">Adinizi Giriniz:</label>
+    <br>
+    <input type="text"placeholder="name">
+****************************************************************
+  <select name="cinsiyet" >
+        <option value="K">KADIN</option>
+        <option value="E">ERKEK</option>
+    </select>
+****************************************************************
+<textarea name="mesaj" placeholder="Mesajinizi yazin"></textarea>
+ile birden fazla yazi yazicaksak bu sekilde ayarliyabiliriz.
+
+****************************************************************
+checkbox ile birden fazla secim islemi yapabiliriz.
+
+
 
 
 
